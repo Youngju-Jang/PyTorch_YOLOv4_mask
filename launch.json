@@ -1,0 +1,26 @@
+{
+    // IntelliSense를 사용하여 가능한 특성에 대해 알아보세요.
+    // 기존 특성에 대한 설명을 보려면 가리킵니다.
+    // 자세한 내용을 보려면 https://go.microsoft.com/fwlink/?linkid=830387을(를) 방문하세요.
+    "version": "0.2.0",
+    "configurations": [        
+        {
+            "env" : {
+                "PYTHONPATH" : "${C:/Users/joj10/anaconda3/envs/apple/python.exe}${C:/Users/joj10/anaconda3/Library/bin}"  
+            },
+            "name": "Python: Current File",
+            "type": "python",
+            "request": "launch",
+            "program": "detect.py",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "args" : [            
+                    "--weights", "runs/train/mask_test44/weights/best_overall.pt", 
+                    "--source", "../dataset/images/val",
+                    "--device", "0",
+                    "--names", "data/mask.names",
+                    "--cfg", "cfg/yolov4-csp-s-leaky_mask.cfg",                
+            ]
+        }
+    ]
+}

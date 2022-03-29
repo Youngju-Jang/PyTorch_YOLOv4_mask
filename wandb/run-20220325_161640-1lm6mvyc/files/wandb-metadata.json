@@ -1,0 +1,35 @@
+{
+    "os": "Windows-10-10.0.19043-SP0",
+    "python": "3.8.12",
+    "heartbeatAt": "2022-03-25T07:16:41.975373",
+    "startedAt": "2022-03-25T07:16:40.188988",
+    "docker": null,
+    "cpu_count": 16,
+    "cuda": null,
+    "args": [
+        "--batch",
+        "8",
+        "--data",
+        "data/mask.yaml",
+        "--cfg",
+        "cfg/yolov4-csp-s-leaky_mask.cfg",
+        "--device",
+        "0",
+        "--weights",
+        "runs\\train\\mask_test44\\weights\\best_293.pt",
+        "--task",
+        "test"
+    ],
+    "state": "running",
+    "codePath": "test.py",
+    "program": "test.py",
+    "git": {
+        "remote": "https://github.com/Youngju-Jang/yolov4_mask.git",
+        "commit": "0eb305beb2a47b5da4034643faaf75b3ba07f9c2"
+    },
+    "email": "joj1043@nate.com",
+    "root": "C:/PyTorch_YOLOv4",
+    "host": "DESKTOP-6B4H13F",
+    "username": "joj10",
+    "executable": "C:\\Users\\joj10\\anaconda3\\python.exe"
+}

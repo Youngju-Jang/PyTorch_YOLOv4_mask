@@ -1,0 +1,36 @@
+Scanning images:   0%|                                                                                                                                                                                   | 0/2322 [00:00<?, ?it/s]Scanning images:  17%|█████████████████████████████▏                                                                                                                                         | 406/2322 [00:00<00:00, 4059.97it/s]Scanning images:  36%|███████████████████████████████████████████████████████████▊                                                                                                           | 832/2322 [00:00<00:00, 4153.23it/s]Scanning images:  54%|█████████████████████████████████████████████████████████████████████████████████████████▉                                                                            | 1258/2322 [00:00<00:00, 4201.81it/s]Scanning images:  73%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▉                                             | 1691/2322 [00:00<00:00, 4235.65it/s]Scanning images:  91%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▌              | 2120/2322 [00:00<00:00, 4239.94it/s]Scanning images: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2322/2322 [00:00<00:00, 4214.16it/s]
+0it [00:00, ?it/s]Scanning labels \PyTorch_YOLOv4\data\obj.cache3 (1767 found, 0 missing, 0 empty, 0 duplicate, for 2322 images): 1767it [00:00, 17495.37it/s]Scanning labels \PyTorch_YOLOv4\data\obj.cache3 (2322 found, 0 missing, 0 empty, 0 duplicate, for 2322 images): 2322it [00:00, 17591.10it/s]
+Scanning images:   0%|                                                                                                                                                                                    | 0/259 [00:00<?, ?it/s]Scanning images: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 259/259 [00:00<00:00, 3648.07it/s]
+0it [00:00, ?it/s]Scanning labels \PyTorch_YOLOv4\data\obj.cache3 (259 found, 0 missing, 0 empty, 0 duplicate, for 259 images): 259it [00:00, 13631.54it/s]
+Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+NumExpr defaulting to 8 threads.
+Images sizes do not match. This will causes images to be display incorrectly in the UI.
+Image sizes 640 train, 640 test
+Using 8 dataloader workers
+Logging results to runs\train\mask_test38
+Starting training for 300 epochs...
+
+     Epoch   gpu_mem       box       obj       cls     total   targets  img_size
+  0%|                                                                                                                                                                                                     | 0/146 [00:00<?, ?it/s]  0%|                                                                                                                                                                                                     | 0/146 [00:00<?, ?it/s]
+Traceback (most recent call last):
+  File "train.py", line 541, in <module>
+    train(hyp, opt, device, tb_writer, wandb)
+  File "train.py", line 291, in train
+    pred = model(imgs)  # forward
+  File "C:\Users\joj10\anaconda3\lib\site-packages\torch\nn\modules\module.py", line 1110, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "C:\PyTorch_YOLOv4\models\models.py", line 464, in forward
+    return self.forward_once(x)
+  File "C:\PyTorch_YOLOv4\models\models.py", line 523, in forward_once
+    x = module(x)
+  File "C:\Users\joj10\anaconda3\lib\site-packages\torch\nn\modules\module.py", line 1110, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "C:\Users\joj10\anaconda3\lib\site-packages\torch\nn\modules\container.py", line 141, in forward
+    input = module(input)
+  File "C:\Users\joj10\anaconda3\lib\site-packages\torch\nn\modules\module.py", line 1110, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "C:\Users\joj10\anaconda3\lib\site-packages\torch\nn\modules\conv.py", line 447, in forward
+    return self._conv_forward(input, self.weight, self.bias)
+  File "C:\Users\joj10\anaconda3\lib\site-packages\torch\nn\modules\conv.py", line 443, in _conv_forward
+    return F.conv2d(input, weight, bias, self.stride,
+RuntimeError: cuDNN error: CUDNN_STATUS_INTERNAL_ERROR

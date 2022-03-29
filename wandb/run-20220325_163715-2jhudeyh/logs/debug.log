@@ -1,0 +1,36 @@
+2022-03-25 16:37:15,982 INFO    MainThread:9192 [wandb_setup.py:_flush():70] setting env: {}
+2022-03-25 16:37:15,982 INFO    MainThread:9192 [wandb_setup.py:_flush():70] multiprocessing start_methods=spawn
+2022-03-25 16:37:15,982 INFO    MainThread:9192 [wandb_setup.py:_flush():70] setting login settings: {}
+2022-03-25 16:37:15,982 INFO    MainThread:9192 [wandb_init.py:_log_setup():318] Logging user logs to C:\PyTorch_YOLOv4\wandb\run-20220325_163715-2jhudeyh\logs\debug.log
+2022-03-25 16:37:15,982 INFO    MainThread:9192 [wandb_init.py:_log_setup():319] Logging internal logs to C:\PyTorch_YOLOv4\wandb\run-20220325_163715-2jhudeyh\logs\debug-internal.log
+2022-03-25 16:37:18,065 INFO    MainThread:9192 [wandb_run.py:_console_start():1396] atexit reg
+2022-03-25 16:37:18,066 INFO    MainThread:9192 [wandb_run.py:_redirect():1259] redirect: SettingsConsole.WRAP
+2022-03-25 16:37:18,066 INFO    MainThread:9192 [wandb_run.py:_redirect():1294] Wrapping output streams.
+2022-03-25 16:37:18,066 INFO    MainThread:9192 [wandb_run.py:_redirect():1310] Redirects installed.
+2022-03-25 16:37:18,757 INFO    MainThread:9192 [wandb_run.py:_atexit_cleanup():1366] got exitcode: 0
+2022-03-25 16:37:18,758 INFO    MainThread:9192 [wandb_run.py:_restore():1338] restore
+2022-03-25 16:37:19,024 INFO    MainThread:9192 [wandb_run.py:_wait_for_finish():1489] got exit ret: file_counts {
+  wandb_count: 1
+  media_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 1107749
+  total_bytes: 1107749
+}
+
+2022-03-25 16:37:21,035 INFO    MainThread:9192 [wandb_run.py:_wait_for_finish():1489] got exit ret: done: true
+exit_result {
+}
+file_counts {
+  wandb_count: 5
+  media_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 1114740
+  total_bytes: 1114740
+}
+
+2022-03-25 16:37:22,161 INFO    MainThread:9192 [wandb_run.py:_show_summary():1644] rendering summary
+2022-03-25 16:37:22,162 INFO    MainThread:9192 [wandb_run.py:_show_history():1682] rendering history
+2022-03-25 16:37:22,164 INFO    MainThread:9192 [wandb_run.py:_show_files():1711] logging synced files
+2022-03-25 16:37:22,166 INFO    MainThread:9192 [internal.py:handle_exit():139] Internal process exited

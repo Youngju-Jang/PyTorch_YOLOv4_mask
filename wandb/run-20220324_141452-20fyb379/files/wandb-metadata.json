@@ -1,0 +1,33 @@
+{
+    "os": "Windows-10-10.0.19043-SP0",
+    "python": "3.8.12",
+    "heartbeatAt": "2022-03-24T05:14:54.216953",
+    "startedAt": "2022-03-24T05:14:52.343877",
+    "docker": null,
+    "cpu_count": 16,
+    "cuda": null,
+    "args": [
+        "--weights",
+        "yolov4-mask-csp-x-leaky.weights",
+        "--cfg",
+        "cfg/yolov4-mask-csp-x-leaky.cfg",
+        "--data",
+        "data/mask.yaml",
+        "--device",
+        "0",
+        "--name",
+        "mask_test"
+    ],
+    "state": "running",
+    "codePath": "train.py",
+    "program": "train.py",
+    "git": {
+        "remote": "https://github.com/WongKinYiu/PyTorch_YOLOv4.git",
+        "commit": "eb5f1663ed0743660b8aa749a43f35f505baa325"
+    },
+    "email": null,
+    "root": "C:/PyTorch_YOLOv4",
+    "host": "DESKTOP-6B4H13F",
+    "username": "joj10",
+    "executable": "C:\\Users\\joj10\\anaconda3\\python.exe"
+}

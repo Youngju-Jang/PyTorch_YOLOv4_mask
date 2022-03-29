@@ -1,0 +1,211 @@
+2022-03-25 16:16:41,357 INFO    MainThread:9312 [internal.py:wandb_internal():64] W&B internal server running at pid: 9312
+2022-03-25 16:16:41,357 INFO    WriterThread:9312 [datastore.py:open_for_write():77] open: C:\PyTorch_YOLOv4\wandb\run-20220325_161640-1lm6mvyc\run-1lm6mvyc.wandb
+2022-03-25 16:16:41,357 DEBUG   HandlerThread:9312 [handler.py:handle_request():55] handle_request: check_version
+2022-03-25 16:16:41,357 DEBUG   SenderThread:9312 [sender.py:send():117] send: header
+2022-03-25 16:16:41,357 DEBUG   SenderThread:9312 [sender.py:send():117] send: request
+2022-03-25 16:16:41,357 DEBUG   SenderThread:9312 [sender.py:send_request():126] send_request: check_version
+2022-03-25 16:16:41,357 DEBUG   Thread-8  :9312 [connectionpool.py:_new_conn():971] Starting new HTTPS connection (1): pypi.org:443
+2022-03-25 16:16:41,549 DEBUG   Thread-8  :9312 [connectionpool.py:_make_request():452] https://pypi.org:443 "GET /pypi/wandb/json HTTP/1.1" 200 62723
+2022-03-25 16:16:41,570 DEBUG   SenderThread:9312 [sender.py:send():117] send: run
+2022-03-25 16:16:41,575 DEBUG   SenderThread:9312 [util.py:is_cygwin_git():372] Failed checking if running in CYGWIN due to: FileNotFoundError(2, '지정된 파일을 찾을 수 없습니다', None, 2, None)
+2022-03-25 16:16:41,575 DEBUG   SenderThread:9312 [cmd.py:execute():870] Popen(['git', 'rev-parse', '--show-toplevel'], cwd=C:\PyTorch_YOLOv4, universal_newlines=False, shell=None, istream=None)
+2022-03-25 16:16:41,615 DEBUG   SenderThread:9312 [cmd.py:execute():870] Popen(['git', 'cat-file', '--batch-check'], cwd=C:\PyTorch_YOLOv4, universal_newlines=False, shell=None, istream=<valid stream>)
+2022-03-25 16:16:41,652 DEBUG   SenderThread:9312 [connectionpool.py:_new_conn():971] Starting new HTTPS connection (1): api.wandb.ai:443
+2022-03-25 16:16:41,920 DEBUG   SenderThread:9312 [connectionpool.py:_make_request():452] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 491
+2022-03-25 16:16:41,957 INFO    SenderThread:9312 [dir_watcher.py:__init__():165] watching files in: C:\PyTorch_YOLOv4\wandb\run-20220325_161640-1lm6mvyc\files
+2022-03-25 16:16:41,957 INFO    SenderThread:9312 [sender.py:_start_run_threads():593] run started: 1lm6mvyc with start time 1648192600
+2022-03-25 16:16:41,957 DEBUG   SenderThread:9312 [sender.py:send():117] send: summary
+2022-03-25 16:16:41,957 DEBUG   HandlerThread:9312 [handler.py:handle_request():55] handle_request: run_start
+2022-03-25 16:16:41,957 INFO    SenderThread:9312 [sender.py:_save_file():682] saving file wandb-summary.json with policy end
+2022-03-25 16:16:41,957 DEBUG   HandlerThread:9312 [meta.py:__init__():34] meta init
+2022-03-25 16:16:41,974 DEBUG   HandlerThread:9312 [meta.py:__init__():48] meta init done
+2022-03-25 16:16:41,975 DEBUG   HandlerThread:9312 [meta.py:probe():190] probe
+2022-03-25 16:16:41,976 DEBUG   HandlerThread:9312 [meta.py:_setup_git():180] setup git
+2022-03-25 16:16:41,977 DEBUG   HandlerThread:9312 [cmd.py:execute():870] Popen(['git', 'cat-file', '--batch-check'], cwd=C:\PyTorch_YOLOv4, universal_newlines=False, shell=None, istream=<valid stream>)
+2022-03-25 16:16:42,005 DEBUG   HandlerThread:9312 [cmd.py:execute():870] Popen(['git', 'rev-parse', '--show-toplevel'], cwd=C:\PyTorch_YOLOv4, universal_newlines=False, shell=None, istream=None)
+2022-03-25 16:16:42,023 DEBUG   HandlerThread:9312 [meta.py:_setup_git():187] setup git done
+2022-03-25 16:16:42,023 DEBUG   HandlerThread:9312 [meta.py:_save_pip():52] save pip
+2022-03-25 16:16:42,023 DEBUG   HandlerThread:9312 [meta.py:_save_pip():66] save pip done
+2022-03-25 16:16:42,023 DEBUG   HandlerThread:9312 [meta.py:probe():231] probe done
+2022-03-25 16:16:42,261 DEBUG   SenderThread:9312 [sender.py:send():117] send: files
+2022-03-25 16:16:42,261 DEBUG   HandlerThread:9312 [handler.py:handle_request():55] handle_request: status
+2022-03-25 16:16:42,261 INFO    SenderThread:9312 [sender.py:_save_file():682] saving file wandb-metadata.json with policy now
+2022-03-25 16:16:42,262 DEBUG   SenderThread:9312 [sender.py:send():117] send: request
+2022-03-25 16:16:42,262 DEBUG   SenderThread:9312 [sender.py:send_request():126] send_request: status
+2022-03-25 16:16:42,265 DEBUG   SenderThread:9312 [connectionpool.py:_new_conn():971] Starting new HTTPS connection (1): api.wandb.ai:443
+2022-03-25 16:16:42,272 DEBUG   Thread-19 :9312 [connectionpool.py:_new_conn():971] Starting new HTTPS connection (1): api.wandb.ai:443
+2022-03-25 16:16:42,494 DEBUG   SenderThread:9312 [connectionpool.py:_make_request():452] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 47
+2022-03-25 16:16:42,494 DEBUG   SenderThread:9312 [sender.py:send():117] send: history
+2022-03-25 16:16:42,494 DEBUG   SenderThread:9312 [sender.py:send():117] send: summary
+2022-03-25 16:16:42,494 INFO    SenderThread:9312 [sender.py:_save_file():682] saving file wandb-summary.json with policy end
+2022-03-25 16:16:42,494 DEBUG   SenderThread:9312 [sender.py:send():117] send: files
+2022-03-25 16:16:42,494 INFO    SenderThread:9312 [sender.py:_save_file():682] saving file media\images\Validation_1_0.jpg with policy now
+2022-03-25 16:16:42,494 DEBUG   SenderThread:9312 [sender.py:send():117] send: files
+2022-03-25 16:16:42,494 INFO    SenderThread:9312 [sender.py:_save_file():682] saving file media\images\Validation_1_1.jpg with policy now
+2022-03-25 16:16:42,494 DEBUG   SenderThread:9312 [sender.py:send():117] send: files
+2022-03-25 16:16:42,494 INFO    SenderThread:9312 [sender.py:_save_file():682] saving file media\images\Validation_1_2.jpg with policy now
+2022-03-25 16:16:42,494 DEBUG   SenderThread:9312 [sender.py:send():117] send: files
+2022-03-25 16:16:42,494 INFO    SenderThread:9312 [sender.py:_save_file():682] saving file media\images\Validation_1_3.jpg with policy now
+2022-03-25 16:16:42,494 DEBUG   SenderThread:9312 [sender.py:send():117] send: files
+2022-03-25 16:16:42,494 INFO    SenderThread:9312 [sender.py:_save_file():682] saving file media\images\Validation_1_4.jpg with policy now
+2022-03-25 16:16:42,494 DEBUG   SenderThread:9312 [sender.py:send():117] send: files
+2022-03-25 16:16:42,494 INFO    SenderThread:9312 [sender.py:_save_file():682] saving file media\images\Validation_1_5.jpg with policy now
+2022-03-25 16:16:42,494 DEBUG   SenderThread:9312 [sender.py:send():117] send: history
+2022-03-25 16:16:42,494 DEBUG   SenderThread:9312 [sender.py:send():117] send: summary
+2022-03-25 16:16:42,494 DEBUG   Thread-19 :9312 [connectionpool.py:_make_request():452] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 576
+2022-03-25 16:16:42,494 INFO    SenderThread:9312 [sender.py:_save_file():682] saving file wandb-summary.json with policy end
+2022-03-25 16:16:42,510 DEBUG   Thread-19 :9312 [connectionpool.py:_new_conn():971] Starting new HTTPS connection (1): storage.googleapis.com:443
+2022-03-25 16:16:42,510 DEBUG   Thread-20 :9312 [connectionpool.py:_new_conn():971] Starting new HTTPS connection (1): api.wandb.ai:443
+2022-03-25 16:16:42,528 DEBUG   Thread-21 :9312 [connectionpool.py:_new_conn():971] Starting new HTTPS connection (1): api.wandb.ai:443
+2022-03-25 16:16:42,539 DEBUG   Thread-22 :9312 [connectionpool.py:_new_conn():971] Starting new HTTPS connection (1): api.wandb.ai:443
+2022-03-25 16:16:42,551 DEBUG   Thread-23 :9312 [connectionpool.py:_new_conn():971] Starting new HTTPS connection (1): api.wandb.ai:443
+2022-03-25 16:16:42,557 DEBUG   Thread-24 :9312 [connectionpool.py:_new_conn():971] Starting new HTTPS connection (1): api.wandb.ai:443
+2022-03-25 16:16:42,557 DEBUG   Thread-25 :9312 [connectionpool.py:_new_conn():971] Starting new HTTPS connection (1): api.wandb.ai:443
+2022-03-25 16:16:42,800 DEBUG   SenderThread:9312 [sender.py:send():117] send: telemetry
+2022-03-25 16:16:42,804 DEBUG   HandlerThread:9312 [handler.py:handle_request():55] handle_request: poll_exit
+2022-03-25 16:16:42,805 DEBUG   SenderThread:9312 [connectionpool.py:_new_conn():971] Starting new HTTPS connection (1): api.wandb.ai:443
+2022-03-25 16:16:42,855 DEBUG   Thread-25 :9312 [connectionpool.py:_make_request():452] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 579
+2022-03-25 16:16:42,857 DEBUG   Thread-21 :9312 [connectionpool.py:_make_request():452] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 584
+2022-03-25 16:16:42,859 DEBUG   Thread-22 :9312 [connectionpool.py:_make_request():452] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 582
+2022-03-25 16:16:42,860 DEBUG   Thread-24 :9312 [connectionpool.py:_make_request():452] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 579
+2022-03-25 16:16:42,866 DEBUG   Thread-20 :9312 [connectionpool.py:_make_request():452] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 575
+2022-03-25 16:16:42,867 DEBUG   Thread-23 :9312 [connectionpool.py:_make_request():452] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 581
+2022-03-25 16:16:42,868 DEBUG   Thread-25 :9312 [connectionpool.py:_new_conn():971] Starting new HTTPS connection (1): storage.googleapis.com:443
+2022-03-25 16:16:42,870 DEBUG   Thread-21 :9312 [connectionpool.py:_new_conn():971] Starting new HTTPS connection (1): storage.googleapis.com:443
+2022-03-25 16:16:42,876 DEBUG   Thread-22 :9312 [connectionpool.py:_new_conn():971] Starting new HTTPS connection (1): storage.googleapis.com:443
+2022-03-25 16:16:42,878 DEBUG   Thread-24 :9312 [connectionpool.py:_new_conn():971] Starting new HTTPS connection (1): storage.googleapis.com:443
+2022-03-25 16:16:42,882 DEBUG   Thread-20 :9312 [connectionpool.py:_new_conn():971] Starting new HTTPS connection (1): storage.googleapis.com:443
+2022-03-25 16:16:42,882 DEBUG   Thread-23 :9312 [connectionpool.py:_new_conn():971] Starting new HTTPS connection (1): storage.googleapis.com:443
+2022-03-25 16:16:42,970 INFO    Thread-14 :9312 [dir_watcher.py:_on_file_created():213] file/dir created: C:\PyTorch_YOLOv4\wandb\run-20220325_161640-1lm6mvyc\files\requirements.txt
+2022-03-25 16:16:42,970 INFO    Thread-14 :9312 [dir_watcher.py:_on_file_created():213] file/dir created: C:\PyTorch_YOLOv4\wandb\run-20220325_161640-1lm6mvyc\files\wandb-metadata.json
+2022-03-25 16:16:42,970 INFO    Thread-14 :9312 [dir_watcher.py:_on_file_created():213] file/dir created: C:\PyTorch_YOLOv4\wandb\run-20220325_161640-1lm6mvyc\files\output.log
+2022-03-25 16:16:42,970 INFO    Thread-14 :9312 [dir_watcher.py:_on_file_created():213] file/dir created: C:\PyTorch_YOLOv4\wandb\run-20220325_161640-1lm6mvyc\files\media
+2022-03-25 16:16:43,050 DEBUG   SenderThread:9312 [connectionpool.py:_make_request():452] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 497
+2022-03-25 16:16:43,053 DEBUG   SenderThread:9312 [sender.py:send():117] send: exit
+2022-03-25 16:16:43,053 INFO    SenderThread:9312 [sender.py:send_exit():195] handling exit code: 0
+2022-03-25 16:16:43,053 INFO    SenderThread:9312 [sender.py:send_exit():203] send defer
+2022-03-25 16:16:43,053 DEBUG   SenderThread:9312 [sender.py:send():117] send: request
+2022-03-25 16:16:43,053 DEBUG   SenderThread:9312 [sender.py:send_request():126] send_request: poll_exit
+2022-03-25 16:16:43,054 DEBUG   HandlerThread:9312 [handler.py:handle_request():55] handle_request: defer
+2022-03-25 16:16:43,054 INFO    HandlerThread:9312 [handler.py:handle_request_defer():69] handle defer: 0
+2022-03-25 16:16:43,054 DEBUG   SenderThread:9312 [sender.py:send():117] send: request
+2022-03-25 16:16:43,054 DEBUG   SenderThread:9312 [sender.py:send_request():126] send_request: defer
+2022-03-25 16:16:43,054 INFO    SenderThread:9312 [sender.py:send_request_defer():212] handle sender defer: 0
+2022-03-25 16:16:43,054 INFO    SenderThread:9312 [sender.py:send_request_defer():248] send defer: 1
+2022-03-25 16:16:43,055 DEBUG   HandlerThread:9312 [handler.py:handle_request():55] handle_request: defer
+2022-03-25 16:16:43,055 INFO    HandlerThread:9312 [handler.py:handle_request_defer():69] handle defer: 1
+2022-03-25 16:16:43,068 DEBUG   Thread-19 :9312 [connectionpool.py:_make_request():452] https://storage.googleapis.com:443 "PUT /wandb-production.appspot.com/hippo1830/PyTorch_YOLOv4/1lm6mvyc/wandb-metadata.json?Expires=1648279002&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=I%2FcqgM9DXLkbO5EBUBUak%2BxHo%2Bk6HhJuxA1bT03xkf9HQ909WgX1nEjkzltSFsXmbFRwBY3Rp8xRhWGHa4gym4Q2xTrElhNmoDjeA42BDGGAKDvPnGalhOXTREG6IzDlQPLFto5bplSpfPqHFVwEJkKJNyKlkIVLoqgp71v0XwXm3khfN91OEoMOhlDK9I78wW0PjkJLdxGN4f6wFETzbg4LJxe0%2FfSt10g%2ByE%2BhXA5ujfbgs%2Fn3BsCYj%2FEH2PvQNqvx55kZEUowH8UJ3O6O0NV9cmZtUMlxI6iYpVWC%2Fpnc4oA5AZqqY9ypedOoK3Xgx2oxgMCuK0%2BGtBSEFc5vZg%3D%3D HTTP/1.1" 200 0
+2022-03-25 16:16:43,074 INFO    Thread-19 :9312 [upload_job.py:push():133] Uploaded file C:\Users\joj10\AppData\Local\Temp\tmpsy3hvb37wandb\345m7wwy-wandb-metadata.json
+2022-03-25 16:16:43,154 DEBUG   SenderThread:9312 [sender.py:send():117] send: request
+2022-03-25 16:16:43,154 DEBUG   SenderThread:9312 [sender.py:send_request():126] send_request: defer
+2022-03-25 16:16:43,154 INFO    SenderThread:9312 [sender.py:send_request_defer():212] handle sender defer: 1
+2022-03-25 16:16:43,154 INFO    SenderThread:9312 [sender.py:send_request_defer():248] send defer: 2
+2022-03-25 16:16:43,154 DEBUG   SenderThread:9312 [sender.py:send():117] send: stats
+2022-03-25 16:16:43,154 DEBUG   HandlerThread:9312 [handler.py:handle_request():55] handle_request: defer
+2022-03-25 16:16:43,154 INFO    HandlerThread:9312 [handler.py:handle_request_defer():69] handle defer: 2
+2022-03-25 16:16:43,154 DEBUG   SenderThread:9312 [sender.py:send():117] send: request
+2022-03-25 16:16:43,154 DEBUG   SenderThread:9312 [sender.py:send_request():126] send_request: defer
+2022-03-25 16:16:43,154 INFO    SenderThread:9312 [sender.py:send_request_defer():212] handle sender defer: 2
+2022-03-25 16:16:43,154 INFO    SenderThread:9312 [sender.py:send_request_defer():248] send defer: 3
+2022-03-25 16:16:43,154 DEBUG   HandlerThread:9312 [handler.py:handle_request():55] handle_request: defer
+2022-03-25 16:16:43,154 INFO    HandlerThread:9312 [handler.py:handle_request_defer():69] handle defer: 3
+2022-03-25 16:16:43,154 DEBUG   SenderThread:9312 [sender.py:send():117] send: summary
+2022-03-25 16:16:43,154 INFO    SenderThread:9312 [sender.py:_save_file():682] saving file wandb-summary.json with policy end
+2022-03-25 16:16:43,154 DEBUG   SenderThread:9312 [sender.py:send():117] send: request
+2022-03-25 16:16:43,154 DEBUG   SenderThread:9312 [sender.py:send_request():126] send_request: defer
+2022-03-25 16:16:43,154 INFO    SenderThread:9312 [sender.py:send_request_defer():212] handle sender defer: 3
+2022-03-25 16:16:43,154 INFO    SenderThread:9312 [sender.py:send_request_defer():248] send defer: 4
+2022-03-25 16:16:43,154 DEBUG   HandlerThread:9312 [handler.py:handle_request():55] handle_request: defer
+2022-03-25 16:16:43,154 INFO    HandlerThread:9312 [handler.py:handle_request_defer():69] handle defer: 4
+2022-03-25 16:16:43,154 DEBUG   SenderThread:9312 [sender.py:send():117] send: request
+2022-03-25 16:16:43,154 DEBUG   SenderThread:9312 [sender.py:send_request():126] send_request: defer
+2022-03-25 16:16:43,154 INFO    SenderThread:9312 [sender.py:send_request_defer():212] handle sender defer: 4
+2022-03-25 16:16:43,154 INFO    SenderThread:9312 [dir_watcher.py:finish():279] shutting down directory watcher
+2022-03-25 16:16:43,375 DEBUG   Thread-20 :9312 [connectionpool.py:_make_request():452] https://storage.googleapis.com:443 "PUT /wandb-production.appspot.com/hippo1830/PyTorch_YOLOv4/1lm6mvyc/media/images/Validation_1_0.jpg?Expires=1648279002&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=CfkMudSAXnyNGx6ObU2BLMLYJ1GvPr%2BqeFEA0DOeVig8TCZoUcN6V7jIR4x%2F4EzUgDRP4DrnKqh95uq64k%2FmLDZNeb4JnT6P9hwKk3tuoQtzdbCy8LJaKyYDcAValsa93blkbkp6eu7pUG9SU4g5hcXGWP7tPJJmjsjte4w3VmnMy2nJ3afORfNZkPmEJQo6omk5UBU4JL2JWxzg3xrCW2n15CMgQEw%2FqJ5kGRpdc20tsMcYfUB%2Bicf3GbN1w38DZYC3%2BLWiDN3KaflDcGC4GIZsisXCJByJRfD3DPgi6%2BpFk0U04L21V%2FAfeYvXEkID2HiYRBFHwqDeaMGbq7PZeA%3D%3D HTTP/1.1" 200 0
+2022-03-25 16:16:43,375 INFO    Thread-20 :9312 [upload_job.py:push():133] Uploaded file C:\Users\joj10\AppData\Local\Temp\tmpsy3hvb37wandb\2pas91j4-media/images/Validation_1_0.jpg
+2022-03-25 16:16:43,390 DEBUG   Thread-21 :9312 [connectionpool.py:_make_request():452] https://storage.googleapis.com:443 "PUT /wandb-production.appspot.com/hippo1830/PyTorch_YOLOv4/1lm6mvyc/media/images/Validation_1_1.jpg?Expires=1648279002&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=lOQ2fFLYZqTprZmSukgZZ%2FpDOYCXqhwd9o%2FWWy5HDZjFzLm4r32JesU%2BL%2F3zG7pB8VSFvBm%2Fzt8pWV1XKw5MVStUCJpLQgDfz26EMm8X2NFrhcs%2FMy%2BPq0Cr8kcqzvPkwIdj9kGxG6FkC0p9Oqf6W%2Bw4RKeXc1sITm1GnIXioh5Ag%2F2xAvP6SDwduWg8gVY2fO4mr9c8ClBYpUt5kEB6n5eprKzVJ8yW4%2BDzf91jaNWClTCKP2ji7mXY%2BCKhVgVuPgbxm3NOOAQ2kMxvvenhzSKtu0%2BHRURbk4JcdBxElpTU5HZUhgBHOmMoomCAahVzwSotnWOcOHyq3DeGhfZB1Q%3D%3D HTTP/1.1" 200 0
+2022-03-25 16:16:43,390 INFO    Thread-21 :9312 [upload_job.py:push():133] Uploaded file C:\Users\joj10\AppData\Local\Temp\tmpsy3hvb37wandb\1mhy0r14-media/images/Validation_1_1.jpg
+2022-03-25 16:16:43,390 DEBUG   Thread-25 :9312 [connectionpool.py:_make_request():452] https://storage.googleapis.com:443 "PUT /wandb-production.appspot.com/hippo1830/PyTorch_YOLOv4/1lm6mvyc/media/images/Validation_1_5.jpg?Expires=1648279002&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=E17e8rsB2ylnFbiyZMOLHrkUi3tcgM9HwvToj7VoWzRrUKISKGjCwDgvNxE64OlTmEljB2eGpuSnqPDZue1cEEJCzjxUDFPkalZGzQaAVuScuTJblBtp63k%2Bnzzlkcw%2BxYPQ6t9P5vYznC%2FXy613%2FdrDVu1lyhAWWhKgUY9NsI0q83m3Z%2FXXcqtNKM88Ig8JI3YBbDgTfwhSqh52%2FI9Y32ww%2B6VGZ7B861euf5JkUqxrAwW5VUpNkyaDy8V3reoJdXZ0EfbQq%2F6D0GcB4E%2BwrF9ha1USZc9erGzRezfm3saoFbrqcSzqmhqpfmR1KM7ejIRudzXR0cGXi4bsK%2B226g%3D%3D HTTP/1.1" 200 0
+2022-03-25 16:16:43,390 INFO    Thread-25 :9312 [upload_job.py:push():133] Uploaded file C:\Users\joj10\AppData\Local\Temp\tmpsy3hvb37wandb\2xzw0d34-media/images/Validation_1_5.jpg
+2022-03-25 16:16:43,437 DEBUG   Thread-22 :9312 [connectionpool.py:_make_request():452] https://storage.googleapis.com:443 "PUT /wandb-production.appspot.com/hippo1830/PyTorch_YOLOv4/1lm6mvyc/media/images/Validation_1_2.jpg?Expires=1648279002&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=FfiU8iJBAKnrr%2FRRHPhJrbmcF30Hi1qlSq7eBVdnToX3uLUv%2Bt86VABhlF7t%2FJpz7rMO7dvjDZO04fVHwaINQcWcZvNeeIYBwDUW5MtZS70LkdxBrf9OECQhvr0WAcZ6I5hcg6%2FF48YeRFuM%2Bs0ZOPC%2FCstcI3G%2FQ79jGYwb8o3iE1qwOuEF3tpuhH989xnsxaxDUCjUvd7R7tZITyk0L7AxEuToGz2w4TlFHrGc7ZuXH9IfKcY%2Fk2Whru3h9v8FOFwUs3gckoTCJ4dVN%2BClaBuk4%2BRN3yWeeK2hrG0vlfCNW12y4LbEbb%2FOVWppMRYnfTiawTGSwzvJzFdOg%2FRFog%3D%3D HTTP/1.1" 200 0
+2022-03-25 16:16:43,437 INFO    Thread-22 :9312 [upload_job.py:push():133] Uploaded file C:\Users\joj10\AppData\Local\Temp\tmpsy3hvb37wandb\12wraibm-media/images/Validation_1_2.jpg
+2022-03-25 16:16:43,760 DEBUG   Thread-23 :9312 [connectionpool.py:_make_request():452] https://storage.googleapis.com:443 "PUT /wandb-production.appspot.com/hippo1830/PyTorch_YOLOv4/1lm6mvyc/media/images/Validation_1_3.jpg?Expires=1648279002&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=X5C5c5%2FmI0WGTH9zubHrJbZrhVVgkTZADGCsUZRYywyGqs1M7Es5XKTZIp3SVKdbJlAIvSsawsZIZKJ%2FLmsPUXFbAdx4DqgCyLXZpU8PL1LyAkcdWXh8x7%2FhrmSJsfWCk%2Bq%2BwaukZyI7FaNZziyGVr%2BpvShw90aoJDtAkzTUTW68DUl7Om7fv%2BvpNCeD0IPS6D9d2hNUKjqyxI5C3N7m%2BGze42b2BYL7AwANmzmVNsiV8Lr3hdkNeab7RxDNxRrjbuqRTxQKsp8gjngUvX5Np0XmseaZqujlamR6QxdLB0Wlb2CMpLTdxs6NVyC5i7faO0%2B7f%2FyebOtgVgXVgsoZtA%3D%3D HTTP/1.1" 200 0
+2022-03-25 16:16:43,760 INFO    Thread-23 :9312 [upload_job.py:push():133] Uploaded file C:\Users\joj10\AppData\Local\Temp\tmpsy3hvb37wandb\2wx86w4w-media/images/Validation_1_3.jpg
+2022-03-25 16:16:43,981 INFO    SenderThread:9312 [dir_watcher.py:_on_file_modified():226] file/dir modified: C:\PyTorch_YOLOv4\wandb\run-20220325_161640-1lm6mvyc\files\config.yaml
+2022-03-25 16:16:43,981 INFO    SenderThread:9312 [dir_watcher.py:finish():309] scan: C:\PyTorch_YOLOv4\wandb\run-20220325_161640-1lm6mvyc\files
+2022-03-25 16:16:43,981 INFO    SenderThread:9312 [dir_watcher.py:finish():315] scan save: C:\PyTorch_YOLOv4\wandb\run-20220325_161640-1lm6mvyc\files\config.yaml config.yaml
+2022-03-25 16:16:43,981 INFO    SenderThread:9312 [dir_watcher.py:finish():315] scan save: C:\PyTorch_YOLOv4\wandb\run-20220325_161640-1lm6mvyc\files\output.log output.log
+2022-03-25 16:16:43,981 INFO    SenderThread:9312 [dir_watcher.py:finish():315] scan save: C:\PyTorch_YOLOv4\wandb\run-20220325_161640-1lm6mvyc\files\requirements.txt requirements.txt
+2022-03-25 16:16:43,981 INFO    SenderThread:9312 [dir_watcher.py:finish():315] scan save: C:\PyTorch_YOLOv4\wandb\run-20220325_161640-1lm6mvyc\files\wandb-metadata.json wandb-metadata.json
+2022-03-25 16:16:43,981 INFO    SenderThread:9312 [dir_watcher.py:finish():315] scan save: C:\PyTorch_YOLOv4\wandb\run-20220325_161640-1lm6mvyc\files\wandb-summary.json wandb-summary.json
+2022-03-25 16:16:43,981 DEBUG   Thread-26 :9312 [connectionpool.py:_new_conn():971] Starting new HTTPS connection (1): api.wandb.ai:443
+2022-03-25 16:16:43,981 DEBUG   Thread-27 :9312 [connectionpool.py:_new_conn():971] Starting new HTTPS connection (1): api.wandb.ai:443
+2022-03-25 16:16:43,981 DEBUG   Thread-28 :9312 [connectionpool.py:_new_conn():971] Starting new HTTPS connection (1): api.wandb.ai:443
+2022-03-25 16:16:43,981 INFO    SenderThread:9312 [dir_watcher.py:finish():315] scan save: C:\PyTorch_YOLOv4\wandb\run-20220325_161640-1lm6mvyc\files\media\images\Validation_1_0.jpg media\images\Validation_1_0.jpg
+2022-03-25 16:16:43,981 INFO    SenderThread:9312 [dir_watcher.py:finish():315] scan save: C:\PyTorch_YOLOv4\wandb\run-20220325_161640-1lm6mvyc\files\media\images\Validation_1_1.jpg media\images\Validation_1_1.jpg
+2022-03-25 16:16:43,981 INFO    SenderThread:9312 [dir_watcher.py:finish():315] scan save: C:\PyTorch_YOLOv4\wandb\run-20220325_161640-1lm6mvyc\files\media\images\Validation_1_2.jpg media\images\Validation_1_2.jpg
+2022-03-25 16:16:43,981 DEBUG   Thread-29 :9312 [connectionpool.py:_new_conn():971] Starting new HTTPS connection (1): api.wandb.ai:443
+2022-03-25 16:16:43,981 INFO    SenderThread:9312 [dir_watcher.py:finish():315] scan save: C:\PyTorch_YOLOv4\wandb\run-20220325_161640-1lm6mvyc\files\media\images\Validation_1_3.jpg media\images\Validation_1_3.jpg
+2022-03-25 16:16:43,981 INFO    SenderThread:9312 [dir_watcher.py:finish():315] scan save: C:\PyTorch_YOLOv4\wandb\run-20220325_161640-1lm6mvyc\files\media\images\Validation_1_4.jpg media\images\Validation_1_4.jpg
+2022-03-25 16:16:43,981 INFO    SenderThread:9312 [dir_watcher.py:finish():315] scan save: C:\PyTorch_YOLOv4\wandb\run-20220325_161640-1lm6mvyc\files\media\images\Validation_1_5.jpg media\images\Validation_1_5.jpg
+2022-03-25 16:16:43,981 INFO    SenderThread:9312 [sender.py:send_request_defer():248] send defer: 5
+2022-03-25 16:16:43,997 DEBUG   HandlerThread:9312 [handler.py:handle_request():55] handle_request: defer
+2022-03-25 16:16:43,997 INFO    HandlerThread:9312 [handler.py:handle_request_defer():69] handle defer: 5
+2022-03-25 16:16:43,997 DEBUG   SenderThread:9312 [sender.py:send():117] send: request
+2022-03-25 16:16:43,997 DEBUG   SenderThread:9312 [sender.py:send_request():126] send_request: defer
+2022-03-25 16:16:43,997 INFO    SenderThread:9312 [sender.py:send_request_defer():212] handle sender defer: 5
+2022-03-25 16:16:43,997 INFO    SenderThread:9312 [file_pusher.py:finish():174] shutting down file pusher
+2022-03-25 16:16:43,997 INFO    SenderThread:9312 [sender.py:send_request_defer():248] send defer: 6
+2022-03-25 16:16:43,997 DEBUG   HandlerThread:9312 [handler.py:handle_request():55] handle_request: defer
+2022-03-25 16:16:43,997 INFO    HandlerThread:9312 [handler.py:handle_request_defer():69] handle defer: 6
+2022-03-25 16:16:43,997 DEBUG   SenderThread:9312 [sender.py:send():117] send: request
+2022-03-25 16:16:43,997 DEBUG   SenderThread:9312 [sender.py:send_request():126] send_request: defer
+2022-03-25 16:16:43,997 INFO    SenderThread:9312 [sender.py:send_request_defer():212] handle sender defer: 6
+2022-03-25 16:16:43,997 DEBUG   Thread-11 :9312 [connectionpool.py:_new_conn():971] Starting new HTTPS connection (1): api.wandb.ai:443
+2022-03-25 16:16:44,155 DEBUG   Thread-24 :9312 [connectionpool.py:_make_request():452] https://storage.googleapis.com:443 "PUT /wandb-production.appspot.com/hippo1830/PyTorch_YOLOv4/1lm6mvyc/media/images/Validation_1_4.jpg?Expires=1648279002&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=HzNd32WuMeiF75S90tSku11PzoeomMIh%2FJMf5tbpqNIjRYMOgqH75MnpiHdz%2FqqakGmKLEL8DUo6Bxc0A4qs051BiJTKzHVnvxAP%2FS2nC0z8P4BCLMybKNR9HcX%2BVdIHZM009JppJo2PhTkjqnpoNg0tW7Z7YRrOBzWzSqcP7fGRsaGYiNf8tMk2uQVeg450B1o6hIGnnH4I6R2OcVTvVlmL%2B0COLlPE6K81efYUPCvpmYlNauC6GztG67xF3PvdcB3b08epyGyE7uCeeocr0q%2BfoRkiTzCy3y981yQY%2BKzYV6pFWUNNCGXNXv6IRb%2BFshwR%2B2FAptVSAp8OJNZ4gA%3D%3D HTTP/1.1" 200 0
+2022-03-25 16:16:44,164 INFO    Thread-24 :9312 [upload_job.py:push():133] Uploaded file C:\Users\joj10\AppData\Local\Temp\tmpsy3hvb37wandb\2skqlvgf-media/images/Validation_1_4.jpg
+2022-03-25 16:16:44,215 DEBUG   Thread-26 :9312 [connectionpool.py:_make_request():452] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 572
+2022-03-25 16:16:44,221 DEBUG   Thread-26 :9312 [connectionpool.py:_new_conn():971] Starting new HTTPS connection (1): storage.googleapis.com:443
+2022-03-25 16:16:44,225 DEBUG   Thread-29 :9312 [connectionpool.py:_make_request():452] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 580
+2022-03-25 16:16:44,225 DEBUG   Thread-29 :9312 [connectionpool.py:_new_conn():971] Starting new HTTPS connection (1): storage.googleapis.com:443
+2022-03-25 16:16:44,225 DEBUG   Thread-27 :9312 [connectionpool.py:_make_request():452] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 573
+2022-03-25 16:16:44,225 DEBUG   Thread-27 :9312 [connectionpool.py:_new_conn():971] Starting new HTTPS connection (1): storage.googleapis.com:443
+2022-03-25 16:16:44,225 DEBUG   Thread-28 :9312 [connectionpool.py:_make_request():452] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 577
+2022-03-25 16:16:44,241 DEBUG   Thread-28 :9312 [connectionpool.py:_new_conn():971] Starting new HTTPS connection (1): storage.googleapis.com:443
+2022-03-25 16:16:44,478 DEBUG   Thread-11 :9312 [connectionpool.py:_make_request():452] https://api.wandb.ai:443 "POST /files/hippo1830/PyTorch_YOLOv4/1lm6mvyc/file_stream HTTP/1.1" 200 181
+2022-03-25 16:16:44,649 DEBUG   Thread-26 :9312 [connectionpool.py:_make_request():452] https://storage.googleapis.com:443 "PUT /wandb-production.appspot.com/hippo1830/PyTorch_YOLOv4/1lm6mvyc/config.yaml?Expires=1648279004&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=Ukb4ZuxwZhvkEFQYfNIh5V8ehRrQ5Qb%2BUk0eWgsUE74lXT9Cc7OOuaP7VmM65fLl4H%2FEMQS75NalPfWex5I1ebpadcblRLftgZZ7OZGVmPILdGJ2WsfyMFbnoL2mqjuwCluT1M6VXzHypyPdimUIrTk9U1P2R2At%2FDD2E7K1gnceqx%2FbvP8HVWI3KeUC%2FBKAaLKUkYkOkYbevsZJcSpXYaZ3ApDt1f9Ruj%2FFoJm3p1DO3eq4kZ1GiBEP7%2FQjlJUD6vygb5HcTlNHYBvY8VDUqz1QuzAiHUSdPd7EulBrO%2B0R9ULnrVQPrrdbKKLtXE3ydyTPtBbeuVWxOnZNUsILzg%3D%3D HTTP/1.1" 200 0
+2022-03-25 16:16:44,650 DEBUG   Thread-29 :9312 [connectionpool.py:_make_request():452] https://storage.googleapis.com:443 "PUT /wandb-production.appspot.com/hippo1830/PyTorch_YOLOv4/1lm6mvyc/wandb-summary.json?Expires=1648279004&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=SkzGIiNxh2cIkWdhL%2Bbaalft9F1Z5xFfrzw9RSjreSz3PrBxJsTgsZVGfEhfG%2BMn6GOOsRnEE%2Bipwkye7euOjXcMZN85r%2B6DxxBW0da%2F8lvfF%2F9S6R6ur7OBE6PsWf%2FmFPYQbgIm4zkyeTyXp2Ki%2FUKjQcSjwqVNiS8Kwa8%2Bq9OE6PGesOr61IGDKqFTNNEGoZwol6D1U66YzIb2TZgAJm5KS8faZzqXeR4vCS%2FmSPzi6VZPrTriCto30s0aiZ61B0sGLwwCJLzUocnl9%2F%2B4vOIeVCZQIu87Sl1dZXKL3DP6M%2FM6g6ElGTKbuh8XNytSJA%2BBtbeD3BSmxvX2t00nlA%3D%3D HTTP/1.1" 200 0
+2022-03-25 16:16:44,650 INFO    Thread-26 :9312 [upload_job.py:push():133] Uploaded file C:\PyTorch_YOLOv4\wandb\run-20220325_161640-1lm6mvyc\files\config.yaml
+2022-03-25 16:16:44,651 DEBUG   Thread-28 :9312 [connectionpool.py:_make_request():452] https://storage.googleapis.com:443 "PUT /wandb-production.appspot.com/hippo1830/PyTorch_YOLOv4/1lm6mvyc/requirements.txt?Expires=1648279004&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=CJcAty9xqyjR6NDPrhfG%2FQPAY0BYZkgMN%2FjEcdGqG1jxfumofyWVS6%2FBkK8mo9ebF8wTFC%2F8Kyw8Xvw0%2BfZfPBng6%2F%2Fi3t0gAAo28M9O7Xc2wQYMW4A3uZLLFBs0pukxrStr6D%2FqJsoMlacbrFPuP7%2BZ%2Fogq8WehhljDStHcarSG15yhSu0W4z79yLmenPxrqLH9qEnfcwYp9edL7kaZBW6559ta5RnEvBSUqE%2FG4WejG042i82HKmLRjsqSDgFO%2FmA3%2FBfd9fEO5lCOouaPYneX1jZbJ4zk8k5NWvUoHDWj4%2BcdKLiGvIcNN4OwLFmYmFtw1eaCvLN0MNsDBbJ%2Fww%3D%3D HTTP/1.1" 200 0
+2022-03-25 16:16:44,652 INFO    Thread-29 :9312 [upload_job.py:push():133] Uploaded file C:\PyTorch_YOLOv4\wandb\run-20220325_161640-1lm6mvyc\files\wandb-summary.json
+2022-03-25 16:16:44,653 INFO    Thread-28 :9312 [upload_job.py:push():133] Uploaded file C:\PyTorch_YOLOv4\wandb\run-20220325_161640-1lm6mvyc\files\requirements.txt
+2022-03-25 16:16:44,676 DEBUG   Thread-11 :9312 [connectionpool.py:_make_request():452] https://api.wandb.ai:443 "POST /files/hippo1830/PyTorch_YOLOv4/1lm6mvyc/file_stream HTTP/1.1" 200 181
+2022-03-25 16:16:44,678 INFO    SenderThread:9312 [sender.py:send_request_defer():248] send defer: 7
+2022-03-25 16:16:44,678 DEBUG   HandlerThread:9312 [handler.py:handle_request():55] handle_request: defer
+2022-03-25 16:16:44,678 INFO    HandlerThread:9312 [handler.py:handle_request_defer():69] handle defer: 7
+2022-03-25 16:16:44,679 DEBUG   SenderThread:9312 [sender.py:send():117] send: request
+2022-03-25 16:16:44,679 DEBUG   SenderThread:9312 [sender.py:send_request():126] send_request: defer
+2022-03-25 16:16:44,679 INFO    SenderThread:9312 [sender.py:send_request_defer():212] handle sender defer: 7
+2022-03-25 16:16:44,679 INFO    SenderThread:9312 [sender.py:send_request_defer():248] send defer: 8
+2022-03-25 16:16:44,679 DEBUG   SenderThread:9312 [sender.py:send():117] send: final
+2022-03-25 16:16:44,679 DEBUG   SenderThread:9312 [sender.py:send():117] send: footer
+2022-03-25 16:16:44,680 DEBUG   HandlerThread:9312 [handler.py:handle_request():55] handle_request: defer
+2022-03-25 16:16:44,680 INFO    HandlerThread:9312 [handler.py:handle_request_defer():69] handle defer: 8
+2022-03-25 16:16:44,680 DEBUG   SenderThread:9312 [sender.py:send():117] send: request
+2022-03-25 16:16:44,680 DEBUG   SenderThread:9312 [sender.py:send_request():126] send_request: defer
+2022-03-25 16:16:44,680 INFO    SenderThread:9312 [sender.py:send_request_defer():212] handle sender defer: 8
+2022-03-25 16:16:44,691 DEBUG   Thread-27 :9312 [connectionpool.py:_make_request():452] https://storage.googleapis.com:443 "PUT /wandb-production.appspot.com/hippo1830/PyTorch_YOLOv4/1lm6mvyc/output.log?Expires=1648279004&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=R6H4lRHaxygFQ3e9kq2ef062c%2B75cUB2amMx%2FIwAbE2MZEN3PBMd7cpzydz5lkM%2B%2FhgAEzLG1C%2Bu1pZAWhiO2B0ov2AG0bEavpZVnmHE11dtlf9fFRyw3Yp3DzPmXM%2BWMjqUgqyUbvYmdGykqfB9D4Rvx4ry6a2RU3yOfZcuJz5aVl0tYmMfR%2BiwpicQaDnX6zdjkSsNW%2Ftlio2MWeGJO91YpOIfKx8suqxpkedXlsobQCbv6rnhFx9m4mYPTmTbl9MKvA809gFDbWAuP2OSF0dJdAoP13O5N9jDM3JP%2BJKrSeXdW7L6S4CINWBhXNtmDxYVXyFQmpZsV%2F9DNIq7OQ%3D%3D HTTP/1.1" 200 0
+2022-03-25 16:16:44,691 INFO    Thread-27 :9312 [upload_job.py:push():133] Uploaded file C:\PyTorch_YOLOv4\wandb\run-20220325_161640-1lm6mvyc\files\output.log
+2022-03-25 16:16:45,055 DEBUG   HandlerThread:9312 [handler.py:handle_request():55] handle_request: poll_exit
+2022-03-25 16:16:45,055 DEBUG   SenderThread:9312 [sender.py:send():117] send: request
+2022-03-25 16:16:45,055 DEBUG   SenderThread:9312 [sender.py:send_request():126] send_request: poll_exit
+2022-03-25 16:16:45,055 INFO    SenderThread:9312 [file_pusher.py:join():179] waiting for file pusher
+2022-03-25 16:16:45,057 DEBUG   HandlerThread:9312 [handler.py:handle_request():55] handle_request: get_summary
+2022-03-25 16:16:45,058 DEBUG   HandlerThread:9312 [handler.py:handle_request():55] handle_request: sampled_history
+2022-03-25 16:16:45,059 DEBUG   HandlerThread:9312 [handler.py:handle_request():55] handle_request: shutdown
+2022-03-25 16:16:45,059 INFO    HandlerThread:9312 [handler.py:finish():274] shutting down handler
+2022-03-25 16:16:45,692 INFO    WriterThread:9312 [datastore.py:close():258] close: C:\PyTorch_YOLOv4\wandb\run-20220325_161640-1lm6mvyc\run-1lm6mvyc.wandb
+2022-03-25 16:16:46,069 INFO    SenderThread:9312 [sender.py:finish():756] shutting down sender
+2022-03-25 16:16:46,069 INFO    SenderThread:9312 [file_pusher.py:finish():174] shutting down file pusher
+2022-03-25 16:16:46,069 INFO    SenderThread:9312 [file_pusher.py:join():179] waiting for file pusher
+2022-03-25 16:16:46,069 INFO    MainThread:9312 [internal.py:handle_exit():139] Internal process exited
